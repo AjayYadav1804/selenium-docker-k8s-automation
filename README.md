@@ -121,21 +121,20 @@ Test execution reports are generated in:
 
 ## 🖼️ Screenshots
 
-### Project Structure in IDE
-![Project Structure](project_structure.png)
-
 ### Docker Images
-![Docker Images](docker_images.png)
+![Image](https://github.com/user-attachments/assets/30a22bfc-cd42-4f3a-a009-2b6655c66710)
+![Image](https://github.com/user-attachments/assets/634a185a-fa4e-4cc9-a13e-15b3a311ea2d)
 
 ### Selenium Grid Dashboard
-![Selenium Grid Dashboard](selenium_grid.png)
+![Image](https://github.com/user-attachments/assets/04082715-cef6-4874-a38b-9280bed38d3a)
 
 ### Kubernetes Dashboard
-![Kubernetes Dashboard](kubernetes_dashboard.png)
+![Image](https://github.com/user-attachments/assets/5443089b-4825-4299-88e1-ab4f8ea43b60)
+![Image](https://github.com/user-attachments/assets/aa7ee610-beae-4724-911f-f27ca47ef9e5)
 
 ### Test Execution Report
-![Test Execution Report](test_report.png)
-
+![Image](https://github.com/user-attachments/assets/6d7a6833-e134-4a70-934f-1c044f86a667)
+![Image](https://github.com/user-attachments/assets/d1ab5419-aefd-4569-ab7c-f8fd72f2cf71)
 
 ## 🔄 CI/CD Integration
 
