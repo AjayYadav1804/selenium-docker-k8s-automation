@@ -1,0 +1,47 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GRID Suite" parallel="tests" thread-count="4">
+
+<test name="Test1">
+	<parameter name="browser" value="CHROME" />
+	<classes>
+		<class name="tests.DockerSeleniumGridKubernetesTest">
+			<methods>
+				<include name="googleOnCHROMETest" />
+			</methods>
+		</class>
+	</classes>
+</test>
+
+<test name="Test2">
+<parameter name="browser" value="CHROME" />
+<classes>
+	<class name="tests.DockerSeleniumGridKubernetesTest">
+		<methods>
+			<include name="linkedinOnFFTest" />
+		</methods>
+	</class>
+</classes>
+</test>
+
+<test name="Test3">
+	<parameter name="browser" value="FIREFOX" />
+	<classes>
+		<class name="tests.DockerSeleniumGridKubernetesTest">
+			<methods>
+				<include name="gmailOnEDGETest" />
+			</methods>
+		</class>
+	</classes>
+</test>
+
+<test name="Test4">
+	<parameter name="browser" value="FIREFOX" />
+	<classes>
+		<class name="tests.DockerSeleniumGridKubernetesTest">
+			<methods>
+				<include name="facebookOnCHROMETest" />
+			</methods>
+		</class>
+	</classes>
+</test>
+</suite>
